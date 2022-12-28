@@ -1,8 +1,13 @@
 h1 {
   color: rebeccapurple;
+  font-size: 70px;
 }
 
-i {
-  font-size: 2em;
-  color: bisque;
+a {
+  color: rgb(17, 154, 37);
+}
+
+section {
+  padding: 160px;
+  background-color: rgb(246, 245, 194);
 }
