@@ -1,18 +1,42 @@
+:root {
+  --base-color-white: #fdf7ff;
+  --primary-color-purple: #6405bf;
+  --base-color-black: #201925;
+  --gradient-color: linear-gradient(
+    180deg,
+    #6405bf 0%,
+    #9a05bf 50%,
+    #d6086b 100%
+  );
+}
+
+.hero {
+  background-color: --base-color-white;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
-  color: rebeccapurple;
-  font-size: 70px;
+  color: --base-color-black;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 65px;
+  letter-spacing: 0.02em;
 }
 
 .menu {
   font-family: "Hind", sans-serif;
 }
 
+.logo {
+  max-width: 80px;
+  max-height: 80px;
+}
+
 a {
   color: rgb(17, 154, 37);
 }
 
-section {
+/* section {
   padding: 160px;
   background-color: rgb(246, 245, 194);
-}
+} */
