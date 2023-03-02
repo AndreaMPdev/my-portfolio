@@ -1,6 +1,11 @@
 h1 {
+  font-family: "Montserrat", sans-serif;
   color: rebeccapurple;
   font-size: 70px;
+}
+
+.menu {
+  font-family: "Hind", sans-serif;
 }
 
 a {
