@@ -11,16 +11,20 @@
 }
 
 .hero {
-  background-color: --base-color-white;
+  background-color: var(--base-color-white);
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  color: --base-color-black;
+  color: var(--base-color-black);
   font-weight: 600;
   font-size: 47px;
   line-height: 65px;
   letter-spacing: 0.02em;
+}
+
+em {
+  color: var(--primary-color-purple);
 }
 
 .menu {
@@ -29,6 +33,7 @@ h1 {
   font-size: 24px;
   line-height: 20px;
   letter-spacing: 0.05em;
+  /* color: var(--base-color-black); */
 }
 
 .logo {
@@ -36,11 +41,21 @@ h1 {
   max-height: 80px;
 }
 
-a {
-  color: rgb(17, 154, 37);
+.contact-button {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  border: none;
+  color: var(--base-color-white);
+  background: var(--gradient-color);
+  margin: 0 auto;
+  padding: 18px 33px;
+  border-radius: 10px;
 }
 
-/* section {
-  padding: 160px;
-  background-color: rgb(246, 245, 194);
-} */
+.contact-button:hover {
+  border: 0.4em ridge var(--primary-color-purple);
+}
