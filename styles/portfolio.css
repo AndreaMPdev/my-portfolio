@@ -10,7 +10,7 @@
   );
 }
 
-.hero {
+* {
   background: var(--base-color-white);
 }
 
