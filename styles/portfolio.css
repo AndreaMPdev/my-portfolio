@@ -2,6 +2,7 @@
   --base-color-white: #fdf7ff;
   --primary-color-purple: #6405bf;
   --base-color-black: #201925;
+  --base-color-grey: #9f88b1;
   --gradient-color: linear-gradient(
     180deg,
     #6405bf 0%,
@@ -34,13 +35,23 @@ em {
   line-height: 20px;
   letter-spacing: 0.05em;
   padding-top: 30px;
-  /* color: var(--base-color-black); */
+  color: var(--base-color-grey);
+}
+
+.menu:focus,
+.menu:hover {
+  color: var(--base-color-black);
 }
 
 /* .logo {
   max-width: 80px;
   max-height: 80px;
 } */
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  color: var(--base-color-grey);
+}
 
 .contact-button {
   font-family: "Montserrat", sans-serif;
@@ -58,5 +69,5 @@ em {
 }
 
 .contact-button:hover {
-  border: 0.4em ridge var(--primary-color-purple);
+  border: 0.3em ridge var(--primary-color-purple);
 }
