@@ -56,10 +56,9 @@ em {
   color: var(--base-color-grey);
 }
 
-.contact-button {
+.button-style {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 24px;
   line-height: 20px;
@@ -71,8 +70,17 @@ em {
   border-radius: 10px;
 }
 
-.contact-button:hover {
-  border: 0.3em ridge var(--primary-color-purple);
+.button-style:hover {
+  outline: 0.3em ridge var(--primary-color-purple);
+}
+
+.main-page-projects {
+  /* margin: 0 auto;
+  display: block;
+  overflow-wrap: break-word; */
+  background: var(--primary-color-purple);
+  min-height: 1000px;
+  height: 1794px;
 }
 
 @media (max-width: 991.98px) {
@@ -83,7 +91,7 @@ em {
   .col-sm-4 {
     display: none;
   }
-  .contact-button {
+  .button-style {
     font-size: 20px;
     line-height: 12px;
     padding: 14px 24px;
