@@ -74,3 +74,18 @@ em {
 .contact-button:hover {
   border: 0.3em ridge var(--primary-color-purple);
 }
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .col-sm-4 {
+    display: none;
+  }
+  .contact-button {
+    font-size: 20px;
+    line-height: 12px;
+    padding: 14px 24px;
+  }
+}
