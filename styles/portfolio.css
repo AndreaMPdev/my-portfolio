@@ -26,10 +26,6 @@ em {
 
 .hero {
   background: var(--base-color-white);
-  margin: 0 auto;
-  width: 100%;
-  max-height: fit-content(600px);
-  /* min-height: 1000px; */
 }
 
 .menu {
@@ -77,11 +73,6 @@ em {
 
 .main-page-projects {
   background: var(--primary-color-purple);
-  margin: 0 auto;
-  /* display: block;
-  width: auto;
-  overflow-wrap: break-word; */
-  min-height: 1000px;
 
   /* height: 1794px; */
 }
