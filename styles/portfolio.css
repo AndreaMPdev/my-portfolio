@@ -65,6 +65,7 @@ em {
   margin: 0 auto;
   padding: 18px 33px;
   border-radius: 10px;
+  letter-spacing: 0.185em;
 }
 
 .button-style:hover {
@@ -87,7 +88,7 @@ em {
   }
   .button-style {
     font-size: 20px;
-    line-height: 12px;
+    /* line-height: 12px; */
     padding: 14px 24px;
   }
 }
