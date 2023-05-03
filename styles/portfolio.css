@@ -37,6 +37,10 @@ i {
   font-size: 40px;
 }
 
+footer {
+  background: var(--base-color-white);
+}
+
 .hero {
   background: var(--base-color-white);
 }
@@ -87,8 +91,6 @@ i {
 
 .main-page-projects {
   background: var(--primary-color-purple);
-
-  /* height: 1794px; */
 }
 
 .card {
