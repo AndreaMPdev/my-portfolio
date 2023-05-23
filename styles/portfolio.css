@@ -24,6 +24,15 @@ em {
   color: var(--primary-color-purple);
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color-purple) !important;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+}
+
 h4 {
   font-family: "Hind", sans-serif;
   font-weight: 300;
