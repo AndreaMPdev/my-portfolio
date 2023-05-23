@@ -33,7 +33,7 @@ h2 {
   letter-spacing: 0.05em;
 }
 
-h4 {
+h3 {
   font-family: "Hind", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -109,6 +109,15 @@ footer {
 
 .card-img-top {
   border: 2rem solid var(--base-color-white);
+}
+
+.card-text {
+  font-family: "Hind", sans-serif;
+  color: var(--base-color-black);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
 }
 
 .socials {
