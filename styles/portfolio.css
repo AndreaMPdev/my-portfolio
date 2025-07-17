@@ -9,6 +9,8 @@
     #9a05bf 50%,
     #d6086b 100%
   );
+  --primary-purple-700: #470488;
+  --primary-purple-900: #2a0250;
 }
 
 h1 {
@@ -69,7 +71,7 @@ footer {
 /* .logo {
   max-width: 80px;
   max-height: 80px;
-} */
+  } */
 
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -84,16 +86,33 @@ footer {
   line-height: 20px;
   border: none;
   color: var(--base-color-white);
-  background: var(--gradient-color);
+  /* background: var(--gradient-color); */
   margin: 0 auto;
   padding: 18px 33px;
   border-radius: 10px;
   letter-spacing: 0.185em;
 }
 
-.button-style:hover {
+.cta-button {
+  background: var(--gradient-color);
+}
+
+.secondary-button {
+  background: var(--primary-color-purple);
+}
+
+/* .secondary-button:visited {
+  background-color: var(--primary-purple-900);
+} */
+
+.cta-button:hover {
   outline: 0.3em ridge var(--primary-color-purple);
   transition: all 300ms ease-in;
+}
+
+.secondary-button:hover {
+  background: var(--primary-purple-700);
+  outline: none;
 }
 
 .main-page-projects {
