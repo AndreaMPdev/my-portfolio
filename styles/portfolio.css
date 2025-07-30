@@ -9,6 +9,7 @@
     #9a05bf 50%,
     #d6086b 100%
   );
+  --primary-purple-50: #f0e6f9;
   --primary-purple-700: #470488;
   --primary-purple-900: #2a0250;
 }
@@ -45,7 +46,7 @@ h3 {
 }
 
 footer {
-  background: var(--base-color-white);
+  background: var(--primary-purple-50);
 }
 
 .hero {
@@ -140,7 +141,7 @@ footer {
 }
 
 .socials {
-  font-size: 40px;
+  font-size: 69px;
   color: var(--base-color-black);
 }
 
@@ -164,6 +165,7 @@ footer {
   .col-sm-4 {
     display: none;
   }
+
   .button-style {
     font-size: 20px;
     padding: 14px 24px;
