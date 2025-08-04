@@ -55,12 +55,11 @@ footer {
 
 .about-me {
   background: var(--primary-purple-900);
-  color: var(--base-color-white);
 }
 
-/* .dark-mode {
+.about-me .menu {
   color: var(--base-color-white);
-} */
+}
 
 .menu {
   font-family: "Hind", sans-serif;
@@ -76,6 +75,15 @@ footer {
 .menu:hover {
   color: var(--base-color-black);
   transition: all 200ms ease-in-out;
+}
+
+.about-me .navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--base-color-white);
+}
+
+.about-me .nav-link:hover {
+  color: var(--base-color-grey);
 }
 
 /* .logo {
