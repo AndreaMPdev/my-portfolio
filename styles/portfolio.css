@@ -183,6 +183,24 @@ footer {
   letter-spacing: 0.05em;
 }
 
+.first-pic {
+  max-width: 100%;
+  height: auto;
+}
+.second-pic {
+  max-width: 50%;
+  height: auto;
+}
+.third-pic {
+  max-width: 80%;
+  height: auto;
+  padding-top: 90px;
+}
+.fourth-pic {
+  max-width: 60%;
+  height: auto;
+}
+
 .socials {
   font-size: 69px;
   color: var(--base-color-black);
