@@ -10,6 +10,7 @@
     #d6086b 100%
   );
   --primary-purple-50: #f0e6f9;
+  --primary-purple-200: #b88ce2;
   --primary-purple-700: #470488;
   --primary-purple-900: #2a0250;
 }
@@ -68,6 +69,18 @@ footer {
 
 .about-me .menu {
   color: var(--base-color-white);
+}
+
+.projects-page {
+  background: var(--base-color-white);
+}
+
+.projects-page .card {
+  background: var(--primary-purple-200);
+}
+
+.projects-page .card-img-top {
+  border: 2rem solid var(--primary-purple-200);
 }
 
 .menu {
