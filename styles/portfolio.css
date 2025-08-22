@@ -215,6 +215,22 @@ footer {
   padding-top: 50px;
 }
 
+.contact-card {
+  max-width: 90%;
+  background: var(--primary-color-purple);
+  border: 20px solid var(--base-color-grey);
+  border-radius: 95px;
+  box-shadow: -16px -16px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-card .contact-text {
+  color: var(--base-color-white);
+}
+
+.socials-contact {
+  font-size: 69px;
+}
+
 .socials {
   font-size: 69px;
   color: var(--base-color-black);
